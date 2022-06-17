@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg py-3 navbar-light navbar-color sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img class="logo-nav" src="img/Logo.png" alt="" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link nav-col" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-col" href="#">How It Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-col" href="#">FAQs</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle nav-col" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Vehicles for Sale
+              </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item nav-col" href="#">Action</a></li>
+                            <li>
+                                <a class="dropdown-item nav-col" href="#">Another action</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item nav-col" href="#">Something else here</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-col" href="#">Register to Sell</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-col" href="#">Register to Buy</a>
+                            </li>
+                            <button class="btn btn-primary ms-lg-4 btn-col">
+              Sell My Vehicle
+            </button>
+                        </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Hero-->
+    <div class="hero vh-100 d-flex align-items-md-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 text-left">
+                    <h1 class="display-4">
+                        Australia's New Favourite place for Everything Cars!
+                    </h1>
+                    <p>
+                        Sell to Dealers is an easy and convenient maketplace where sellers list their cars for registered motor dealers to ake an instant offer!
+                    </p>
+                    <a href="#" class="btn btn-primary me-5">I want to Buy</a>
+                    <!--<a href="#" class="btn btn-outline-light">My Portfolio</a>-->
+                    <a href="#" class="btn btn-primary btn-col">I want to Sell</a>
+                    <!--<a href="#" class="btn btn-outline-light">My Portfolio2</a>-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="portfolio">
+        <div class="container-fluid">
+            <div class="row mb-5">
+                <div class="col-md-8 mx-auto text-center">
+                    <h2 class="text-primary">Recently Added Vehicles</h2>
+                </div>
+            </div>
+            <div class="row g-3">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="project">
+                        <img src="img/01.png" alt="" />
+                        <div class="overlay">
+                            <div>
+                                <h4 class="text-white">BMW 650D</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="project">
+                        <img src="img/02.png" alt="" />
+                        <div class="overlay">
+                            <div>
+                                <h4 class="text-white">Ducati Super Sport</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="project">
+                        <img src="img/03.png" alt="" />
+                        <div class="overlay">
+                            <div>
+                                <h4 class="text-white">Chevolett Camero</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="project">
+                        <img src="img/04.png" alt="" />
+                        <div class="overlay">
+                            <div>
+                                <h4 class="text-white">Mercedes</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="project">
+                        <img src="img/05.png" alt="" />
+                        <div class="overlay">
+                            <div>
+                                <h4 class="text-white">Honda</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="project">
+                        <img src="img/06.png" alt="" />
+                        <div class="overlay">
+                            <div>
+                                <h4 class="text-white">BMW</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <div class="btn-img">
+                <a href="#" class="btn btn-primary me-5">View all Vehicles</a>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+
+</html>
